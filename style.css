@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #008cba;
+    --background-color-light: #f5f5f5;
+    --background-color-dark: #2b2b2b;
+    --text-color-light: #333;
+    --text-color-dark: #ccc;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

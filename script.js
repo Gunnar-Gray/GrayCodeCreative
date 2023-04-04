@@ -1,8 +1,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-  const menuBtn = document.querySelector('.menu-btn');
-  const menuLinks = document.querySelector('.menu-links');
-  const darkModeBtn = document.querySelector('.dark-mode-btn');
+  const menuBtn = document.querySelector('.hamburger');
+  const menuLinks = document.querySelector('.nav-menu');
+  const darkModeBtn = document.querySelector('.mode-toggle');
   const body = document.querySelector('body');
 
   // Navbar menu toggle
@@ -17,4 +17,3 @@ document.addEventListener('DOMContentLoaded', () => {
     darkModeBtn.classList.toggle('dark-mode');
   });
 });
-
